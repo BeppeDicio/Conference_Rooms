@@ -14,18 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(rooms) { room in
-                NavigationLink(destination: Text(room.name)) {
-                    Image(room.thumbnailName)
-                        .cornerRadius(8)
-
-
-                    VStack(alignment: .leading) {
-                        Text(room.name)
-                        Text("\(room.capacity) people")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }
-                }
+                RoomCell(room: room)
             }
             .navigationBarTitle(Text("Meeting Rooms"))
         }
@@ -39,3 +28,21 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 #endif
+
+struct RoomCell: View {
+    let room: Room
+    
+    var body: some View {
+        NavigationLink(destination: RoomDetailView(room: room)) {
+            Image(room.thumbnailName)
+                .cornerRadius(8)
+            
+            VStack(alignment: .leading) {
+                Text(room.name)
+                Text("\(room.capacity) people")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+            }
+        }
+    }
+}

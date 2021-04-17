@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9D923DA262B545E00085FB8 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D923D9262B545E00085FB8 /* RoomDetailView.swift */; };
 		D9F0722B262A0F0400B235AD /* Conference_RoomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0722A262A0F0400B235AD /* Conference_RoomsApp.swift */; };
 		D9F0722D262A0F0400B235AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0722C262A0F0400B235AD /* ContentView.swift */; };
 		D9F0722F262A0F0500B235AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F0722E262A0F0500B235AD /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9D923D9262B545E00085FB8 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
 		D9F07227262A0F0400B235AD /* Conference Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conference Rooms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F0722A262A0F0400B235AD /* Conference_RoomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference_RoomsApp.swift; sourceTree = "<group>"; };
 		D9F0722C262A0F0400B235AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				D9F0722A262A0F0400B235AD /* Conference_RoomsApp.swift */,
 				D9F0722C262A0F0400B235AD /* ContentView.swift */,
+				D9D923D9262B545E00085FB8 /* RoomDetailView.swift */,
 				D9F0723A262A114900B235AD /* Room.swift */,
 				D9F07241262B4C4000B235AD /* Rooms.xcassets */,
 				D9F0722E262A0F0500B235AD /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			files = (
 				D9F0722D262A0F0400B235AD /* ContentView.swift in Sources */,
 				D9F0722B262A0F0400B235AD /* Conference_RoomsApp.swift in Sources */,
+				D9D923DA262B545E00085FB8 /* RoomDetailView.swift in Sources */,
 				D9F0723B262A114900B235AD /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
