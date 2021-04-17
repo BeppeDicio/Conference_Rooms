@@ -12,6 +12,7 @@
 		D9F0722F262A0F0500B235AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F0722E262A0F0500B235AD /* Assets.xcassets */; };
 		D9F07232262A0F0500B235AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F07231262A0F0500B235AD /* Preview Assets.xcassets */; };
 		D9F0723B262A114900B235AD /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0723A262A114900B235AD /* Room.swift */; };
+		D9F07242262B4C4000B235AD /* Rooms.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F07241262B4C4000B235AD /* Rooms.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D9F07231262A0F0500B235AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9F07233262A0F0500B235AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F0723A262A114900B235AD /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		D9F07241262B4C4000B235AD /* Rooms.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rooms.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				D9F0722A262A0F0400B235AD /* Conference_RoomsApp.swift */,
 				D9F0722C262A0F0400B235AD /* ContentView.swift */,
+				D9F0723A262A114900B235AD /* Room.swift */,
+				D9F07241262B4C4000B235AD /* Rooms.xcassets */,
 				D9F0722E262A0F0500B235AD /* Assets.xcassets */,
 				D9F07233262A0F0500B235AD /* Info.plist */,
 				D9F07230262A0F0500B235AD /* Preview Content */,
-				D9F0723A262A114900B235AD /* Room.swift */,
 			);
 			path = "Conference Rooms";
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F07232262A0F0500B235AD /* Preview Assets.xcassets in Resources */,
+				D9F07242262B4C4000B235AD /* Rooms.xcassets in Resources */,
 				D9F0722F262A0F0500B235AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
