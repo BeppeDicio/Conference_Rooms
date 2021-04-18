@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D9D923DA262B545E00085FB8 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D923D9262B545E00085FB8 /* RoomDetailView.swift */; };
+		D9D923DF262C373D00085FB8 /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D923DE262C373D00085FB8 /* RoomStore.swift */; };
 		D9F0722B262A0F0400B235AD /* Conference_RoomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0722A262A0F0400B235AD /* Conference_RoomsApp.swift */; };
 		D9F0722D262A0F0400B235AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0722C262A0F0400B235AD /* ContentView.swift */; };
 		D9F0722F262A0F0500B235AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F0722E262A0F0500B235AD /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		D9D923D9262B545E00085FB8 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
+		D9D923DE262C373D00085FB8 /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
 		D9F07227262A0F0400B235AD /* Conference Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conference Rooms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F0722A262A0F0400B235AD /* Conference_RoomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference_RoomsApp.swift; sourceTree = "<group>"; };
 		D9F0722C262A0F0400B235AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D9F0722E262A0F0500B235AD /* Assets.xcassets */,
 				D9F07233262A0F0500B235AD /* Info.plist */,
 				D9F07230262A0F0500B235AD /* Preview Content */,
+				D9D923DE262C373D00085FB8 /* RoomStore.swift */,
 			);
 			path = "Conference Rooms";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D923DF262C373D00085FB8 /* RoomStore.swift in Sources */,
 				D9F0722D262A0F0400B235AD /* ContentView.swift in Sources */,
 				D9F0722B262A0F0400B235AD /* Conference_RoomsApp.swift in Sources */,
 				D9D923DA262B545E00085FB8 /* RoomDetailView.swift in Sources */,
