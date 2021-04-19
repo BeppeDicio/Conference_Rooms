@@ -64,11 +64,11 @@
 				D9F0722C262A0F0400B235AD /* ContentView.swift */,
 				D9D923D9262B545E00085FB8 /* RoomDetailView.swift */,
 				D9F0723A262A114900B235AD /* Room.swift */,
+				D9D923DE262C373D00085FB8 /* RoomStore.swift */,
 				D9F07241262B4C4000B235AD /* Rooms.xcassets */,
 				D9F0722E262A0F0500B235AD /* Assets.xcassets */,
 				D9F07233262A0F0500B235AD /* Info.plist */,
 				D9F07230262A0F0500B235AD /* Preview Content */,
-				D9D923DE262C373D00085FB8 /* RoomStore.swift */,
 			);
 			path = "Conference Rooms";
 			sourceTree = "<group>";
